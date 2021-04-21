@@ -10,8 +10,8 @@ public class HomeWorkApp {
     }
 
     public static boolean checkSum(int a, int b) {
-        if ((a + b >= 10) && (a + b <= 20)) return true;
-        else return false;
+        int sum = a + b;
+        return (sum >= 10) && (sum <= 20);
     }
 
     public static void printPositive(int a) {
@@ -20,8 +20,7 @@ public class HomeWorkApp {
     }
 
     public static boolean checkPositive(int a) {
-        if (a < 0) return true;
-        else return false;
+        return a < 0;
     }
 
     public static void printLineTimes(String line, int times) {
@@ -31,12 +30,7 @@ public class HomeWorkApp {
     }
 
     public static boolean isItLeapYear(int year) {
-        if (year % 4 == 0) {
-            if (year % 100 == 0) {
-                if (year % 400 == 0) return true;
-                else return false;
-            } else return true;
-        } else return false;
+        return year % 400 == 0 || (year % 4 == 0 && year % 100 != 0);
     }
 
 }
