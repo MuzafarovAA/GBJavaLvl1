@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc92af8d-f783-496a-9319-b3572248c536" name="Default Changelist" comment="Lesson 3">
+    <list default="true" id="dc92af8d-f783-496a-9319-b3572248c536" name="Default Changelist" comment="Lesson 3 HomeWork">
+      <change afterPath="$PROJECT_DIR$/src/lesson4/HomeWorkApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson3/HomeWorkApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson3/HomeWorkApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="lesson3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,8 +42,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.HomeWorkApp (2)">
+  <component name="RunManager" selected="Application.HomeWorkApp (1)">
     <configuration name="HomeWorkApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson2.HomeWorkApp" />
       <module name="GBJavaLvl1" />
@@ -83,15 +84,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -101,8 +100,8 @@
         <item itemvalue="Application.HomeWorkApp (2)" />
         <item itemvalue="Application.HomeWorkApp (1)" />
         <item itemvalue="Application.HomeWorkApp" />
-        <item itemvalue="Application.HomeWorkApp" />
-        <item itemvalue="Application.HomeWorkApp" />
+        <item itemvalue="Application.HomeWorkApp (2)" />
+        <item itemvalue="Application.HomeWorkApp (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -118,7 +117,9 @@
       <workItem from="1618651881839" duration="789000" />
       <workItem from="1618932071752" duration="1170000" />
       <workItem from="1619021376594" duration="529000" />
-      <workItem from="1619109125417" duration="4021000" />
+      <workItem from="1619109125417" duration="4782000" />
+      <workItem from="1619197642563" duration="2252000" />
+      <workItem from="1619284613024" duration="539000" />
     </task>
     <task id="LOCAL-00001" summary="Homework Lesson 1">
       <created>1618424314882</created>
@@ -176,7 +177,21 @@
       <option name="project" value="LOCAL" />
       <updated>1619022196430</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Lesson 3 cmd files">
+      <created>1619113307078</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1619113307078</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Lesson 3 HomeWork">
+      <created>1619113484397</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1619113484397</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +220,8 @@
     <MESSAGE value="Lesson 2" />
     <MESSAGE value="Lesson 2 HomeWork" />
     <MESSAGE value="Lesson 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 3" />
+    <MESSAGE value="Lesson 3 cmd files" />
+    <MESSAGE value="Lesson 3 HomeWork" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 3 HomeWork" />
   </component>
 </project>
