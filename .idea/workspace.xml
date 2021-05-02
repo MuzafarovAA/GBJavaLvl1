@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc92af8d-f783-496a-9319-b3572248c536" name="Default Changelist" comment="Lesson 5 Homework">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="lesson5" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -109,19 +110,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.TicTacToe" />
@@ -152,7 +140,8 @@
       <workItem from="1619456911725" duration="1140000" />
       <workItem from="1619537912703" duration="742000" />
       <workItem from="1619625419844" duration="2502000" />
-      <workItem from="1619939962817" duration="581000" />
+      <workItem from="1619939962817" duration="959000" />
+      <workItem from="1619941060595" duration="66000" />
     </task>
     <task id="LOCAL-00001" summary="Homework Lesson 1">
       <created>1618424314882</created>
@@ -252,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619627820954</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="cmd files">
+      <created>1619940746502</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1619940746502</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,6 +283,7 @@
     <MESSAGE value="Lesson 4 Homework" />
     <MESSAGE value="Lesson 5 cmd files" />
     <MESSAGE value="Lesson 5 Homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 5 Homework" />
+    <MESSAGE value="cmd files" />
+    <option name="LAST_COMMIT_MESSAGE" value="cmd files" />
   </component>
 </project>
