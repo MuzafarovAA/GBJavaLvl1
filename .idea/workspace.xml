@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="10" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="dc92af8d-f783-496a-9319-b3572248c536" name="Default Changelist" comment="Lesson 5 Homework">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson6/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson6/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson6/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson6/TestDrive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson5" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,9 +48,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.HomeWorkApp (1)">
+  <component name="RunManager" selected="Application.TestDrive">
     <configuration name="HomeWorkApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson2.HomeWorkApp" />
       <module name="GBJavaLvl1" />
@@ -84,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeWorkApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson1.HomeWorkApp" />
+    <configuration name="TestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson6.TestDrive" />
       <module name="GBJavaLvl1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson1.*" />
+          <option name="PATTERN" value="lesson6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,13 +117,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestDrive" />
         <item itemvalue="Application.TicTacToe" />
         <item itemvalue="Application.HomeWorkApp (3)" />
         <item itemvalue="Application.HomeWorkApp (2)" />
         <item itemvalue="Application.HomeWorkApp (1)" />
-        <item itemvalue="Application.HomeWorkApp" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +161,8 @@
       <workItem from="1619537912703" duration="742000" />
       <workItem from="1619625419844" duration="2502000" />
       <workItem from="1619939962817" duration="959000" />
-      <workItem from="1619941060595" duration="66000" />
+      <workItem from="1619941060595" duration="1889000" />
+      <workItem from="1620014742526" duration="5886000" />
     </task>
     <task id="LOCAL-00001" summary="Homework Lesson 1">
       <created>1618424314882</created>
@@ -248,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619940746502</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="gitignore added">
+      <created>1619941148449</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1619941148449</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,6 +312,7 @@
     <MESSAGE value="Lesson 5 cmd files" />
     <MESSAGE value="Lesson 5 Homework" />
     <MESSAGE value="cmd files" />
-    <option name="LAST_COMMIT_MESSAGE" value="cmd files" />
+    <MESSAGE value="gitignore added" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore added" />
   </component>
 </project>
