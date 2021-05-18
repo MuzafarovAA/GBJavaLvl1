@@ -4,11 +4,8 @@
     <option name="SCOPE_TYPE" value="10" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc92af8d-f783-496a-9319-b3572248c536" name="Default Changelist" comment="Lesson 5 Homework">
-      <change afterPath="$PROJECT_DIR$/src/lesson7/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson7/Plate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson7/StringHomeWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson7/TestDrive.java" afterDir="false" />
+    <list default="true" id="dc92af8d-f783-496a-9319-b3572248c536" name="Default Changelist" comment="Lesson 7 Homework">
+      <change afterPath="$PROJECT_DIR$/src/lesson8/CounterApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +48,20 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.TestDrive (1)">
+  <component name="RunManager" selected="Application.CounterApp">
+    <configuration name="CounterApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson8.CounterApp" />
+      <module name="GBJavaLvl1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HomeWorkApp (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson4.HomeWorkApp" />
       <module name="GBJavaLvl1" />
@@ -65,25 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringHomeWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson7.StringHomeWork" />
+    <configuration name="TestApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson8.TestApp" />
       <module name="GBJavaLvl1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestDrive (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson7.TestDrive" />
-      <module name="GBJavaLvl1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson7.*" />
+          <option name="PATTERN" value="lesson8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,25 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestDrive (1)" />
-        <item itemvalue="Application.StringHomeWork" />
-        <item itemvalue="Application.TestDrive" />
+        <item itemvalue="Application.CounterApp" />
+        <item itemvalue="Application.TestApp" />
         <item itemvalue="Application.TicTacToe" />
+        <item itemvalue="Application.TestDrive" />
         <item itemvalue="Application.HomeWorkApp (3)" />
       </list>
     </recent_temporary>
@@ -163,7 +147,9 @@
       <workItem from="1619939962817" duration="959000" />
       <workItem from="1619941060595" duration="1889000" />
       <workItem from="1620014742526" duration="5886000" />
-      <workItem from="1620536239841" duration="2760000" />
+      <workItem from="1620536239841" duration="3522000" />
+      <workItem from="1621265033427" duration="24000" />
+      <workItem from="1621319593777" duration="183000" />
     </task>
     <task id="LOCAL-00001" summary="Homework Lesson 1">
       <created>1618424314882</created>
@@ -277,7 +263,21 @@
       <option name="project" value="LOCAL" />
       <updated>1619941148449</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Lesson 7 cmd files">
+      <created>1620541368766</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1620541368766</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Lesson 7 Homework">
+      <created>1620541497630</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1620541497630</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,6 +314,8 @@
     <MESSAGE value="Lesson 5 Homework" />
     <MESSAGE value="cmd files" />
     <MESSAGE value="gitignore added" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore added" />
+    <MESSAGE value="Lesson 7 cmd files" />
+    <MESSAGE value="Lesson 7 Homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 7 Homework" />
   </component>
 </project>
